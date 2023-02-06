@@ -1,0 +1,46 @@
+.navbar{
+    background-color:  rgb(162, 211, 255);
+}
+
+.cardWrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 80px;
+    overflow-x: scroll;
+    grid-auto-flow: column;
+    height: 100%;
+}
+
+.cardWrapper::-webkit-scrollbar{
+    display: none;
+  }
+
+.card:hover{
+    transform: scale(1.5);
+}
+
+.button-info{
+    position: absolute;
+    border-radius: 30%;
+    z-index: 2;
+    margin: 80px 80px;
+    display: none;
+    left: 19px;
+    width: 92px;
+}
+
+.card:hover .button-info{
+    display: block;
+    background-color: #74ccf8;
+}
+
+.bi:hover{
+    transform: scale(2.5);
+}
+
+.dark{
+    background-color: #263238;  
+    color: #ffffff;
+}
+
+
